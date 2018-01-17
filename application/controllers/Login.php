@@ -11,8 +11,7 @@ class Login extends CI_Controller {
 		redirect('Admin/pemainAdmin', 'refresh'); 
 		}else{
 			$this->load->view('template/header-admin');
-			$this->load->view('admin/login');
-			$this->load->view('template/footer-admin'); 
+			$this->load->view('admin/login'); 
 		} 
     }
 

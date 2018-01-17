@@ -39,7 +39,6 @@ class Admin extends CI_Controller {
 		$data['sql'] = $this->m_timnas->ambildata();
 		$this->load->view('template/header-admin');
 		$this->load->view('admin/pemain', $data);
-		$this->load->view('template/footer-admin');
 	}
 
 
